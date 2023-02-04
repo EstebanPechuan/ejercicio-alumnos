@@ -5,6 +5,13 @@
     let apellido = ''
     let email = ''
 
+    // $: data = {
+    //     "nombre": nombre,
+    //     "apellido": apellido,
+    //     "email": email,
+    // }
+    // $: localStorage.setItem('profesor', JSON.stringify(data))
+
     const guardarDatos = () => {
         let data = {
             "nombre": nombre,

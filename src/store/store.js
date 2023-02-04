@@ -6,7 +6,7 @@ let profe = {
     'email': 'profe@gmail.com',
 }
 
-let initialState = [
+let alumnosInitial = [
     {
         'nombre': 'Esteban',
         'apellido': 'Pechuan',
@@ -21,5 +21,10 @@ let initialState = [
     },
 ]
 
+
+
+// let initialState = JSON.parse(localStorage.getItem('profesor')) || alumnosInitial
+// let initialProfe = JSON.parse(localStorage.getItem('profesor')) || profe
+
 export let profesor = writable(profe)
-export let alumnos = writable(initialState)
+export let alumnos = writable(alumnosInitial)
