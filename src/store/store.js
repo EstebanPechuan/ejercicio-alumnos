@@ -8,14 +8,14 @@ let profe = {
 
 let alumnosInitial = [
     {
-        'nombre': 'Esteban',
-        'apellido': 'Pechuan',
+        'nombre': 'Alumno',
+        'apellido': '1',
         'dni': '11111111',
         'domicilio': 'calle falsa 1'
     },
     {
-        'nombre': 'Ana',
-        'apellido': 'Quiroga',
+        'nombre': 'Alumno',
+        'apellido': '2',
         'dni': '22222222',
         'domicilio': 'calle falsa 2'
     },
